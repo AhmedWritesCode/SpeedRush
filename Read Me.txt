@@ -1,0 +1,32 @@
+# Our Game "Speed Rush" Consists of 6 Classes:
+
+1- Car :  represent the player's car, which will be moving horizontally to avoid
+the Enemies "Obstacle".
+
+2- Obstacle : represent the enemies of the player's car, the player's car must 
+avoid them to survive.
+
+3- Lives : represent the health of the player's car, once the number fall down
+to zero, the game is over.
+
+4- Score : represent the Achievement of the player throughout the game as an 
+integer value.
+
+5- Entity : The Parent Class of Obstacle & Car. 
+
+6- Image : Manage the Images for the Draw Functions of Car & Obstacle.
+
+# According to D4, this file will showcase the Implementation & Specification of the classes,
+running the Main Sourcefile will Launce the Game. 
+
+# Game Rules:
+
+1- use A/D buttons to move the car left or right respectivley.
+
+2- You start with a total of 3 Lives.
+
+3- Once you lose all your lives, You lose the game.
+
+4- Hitting an Obstacle reduce your lives by 1.
+
+5- Score increases the Longer you survive.
